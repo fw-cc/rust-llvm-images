@@ -8,7 +8,7 @@ USER root
 ENV DEBIAN_FRONTEND=noninteractive
 
 ARG LLVM_VERSION=21
-ARG RUST_VERSION=1.90
+ARG RUST_VERSION=1.93.1
 
 # Install LLVM and its dependencies
 RUN apt update \
